@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2{
+    color: #0e1015;
+}
+p{
+    color: #8c979e;
+    line-height: 170%;
+    padding: 10px 0;
+}
+
+
+header{
+    
+    font-family: 'Raleway', sans-serif;
+    height: 76px;
+}
+
+
+.nav-wrapper{
+    
+    position: fixed;
+    z-index: 100;
+    top:0;
+    left:0;
+    right: 0; 
+
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+
+
+    /* align-items: center; */
+    vertical-align: baseline;
+
+
+    border-top: 1px #333 solid;
+    /* border-bottom: 1px solid rgb(250, 233, 233); */
+    height: 76px;
+    background-color: white;
+}
+
+.logo{
+    color: #666;
+    text-decoration: none;
+    font-size: 2em;
+    display: inline-block;
+    /* padding: 30px 0 10px 10%; */
+    padding-left: 10%;
+    padding-top: 18px;
+}
+
+.logo:hover{
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10%;
+    margin-top: 28px,;
+    /* width: 45%; */
+    float: right;
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+ul li{
+    display: inline-block;
+    padding-top: 12px;
+    padding-left: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover{
+    color: #337ab7;
+}
+
+section, .paral{
+    height: 90vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:first-child{
+    background: url("../img/paral1.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+section article{
+    text-align: center;
+    color: white;
+}
+
+section article h1{
+    padding: 0;
+    margin: 0;
+    font-size: 3.5em;
+}
+
+section article p{
+    margin: 40px auto;
+    color: white;
+    width: 70vw;
+}
+
+section article div a, #blue_button{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 20px 40px;
+    width: 130px;
+    box-shadow: none;
+}
+
+#blue_button{
+    background-color: #745cf9;
+    margin-right: 10px;
+}
+#blue_button:hover{
+    background-color: #5234f9;
+}
+
+section article div a:last-child{
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+/* *   SEO TEIL und PORTFOLIO SECTION in GRID */
+
+#wrapper_seo_port{
+    margin-top: 100px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 70vh 70vh;
+    align-items: center;
+    justify-items: center;
+}
+
+/* #wrapper_seo_port div{
+    border: 1px tomato solid;
+} */
+#wrapper_seo_port div:first-child{
+    justify-self: end;
+}
+
+
+#wrapper_seo_port img{
+     width: 40vw;
+    /* height: 70vh;  */
+}
+
+.text_col{
+    width: 70%;
+}
+
+/* *   PARALAX 2 */
+
+#paral2{
+    height: 60vh;
+    background: url("../img/paral2.jpg") center/cover no-repeat;
+    background-attachment: fixed;
+    margin-top: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* *   Limitless options */
+
+
+#paral_away{
+    padding: 0;
+    margin: 0;
+    height: 60vh;
+}
+
+#paral_away p{
+    color: #8c979e;
+}
+
+#center_pic{
+    width: 65vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
